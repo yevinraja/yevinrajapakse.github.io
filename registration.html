@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    
+   
+</head>
+<body>
+
+
+  
+  <div class="container">
+    <form>
+      <h1>Enter your Details</h1>
+
+      <div class="input-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="Same as your ID" id="contact-name" onkeyup="validatename()">
+        <span id="name-error"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Phone No.</label>
+        <input type="tel" placeholder="123 456 7890" id="contact-phone" onkeyup="validatephone()">
+        <span id="nameoncard-error"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Email Id</label>
+        <input type="email" placeholder="we'll send your tickets here" id="contact-email" onkeyup="validateemail()">
+        <span id="email-error"></span>
+      </div>   
+
+      <div class="input-group">
+        <label>Confirm Email</label>
+        <input type="Confirm email" placeholder="Just to ensure you got this right" id="contact-cemail" onkeyup="validatecemail()">
+        <span id="cemail-error"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Gender</label>
+        <input type="Confirm gender" placeholder="M/F" onkeyup="validategender()">
+        
+        
+          <div class="select">
+            
+            <select name="format" id="contact-gender">
+          
+              <option selected disabled>Choose your Gender</option> 
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            
+            </select>
+            </div>
+
+        </div>
+        <span id="gender-error"></span>
+      </div>
+      
+   
+  </form>
+
+  
+
+ 
+ 
+  </div>
+
+  <div class="section">
+    <h2>Summary</h2>
+    <table id="summaryTable">
+      <table border="1">
+  
+        <tbody>
+            <tr>
+                <td>Date</td>
+                <td id="datecell"></td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td id="timecell"></td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td id="durationcell"></td>
+            </tr>
+            <tr>
+                <td>Tickets</td>
+                <td>Charges</td>
+            </tr>
+            <tr>
+                <td>Sl Adult</td>
+                <td id="sladultcell"></td>
+            </tr>
+            <tr>
+                <td>SL Child</td>
+                <td id="slchildcell"></td>
+            </tr>
+            <tr>
+                <td>Foreigner Adult</td>
+                <td id="foreigneracell"></td>
+            </tr>
+            <tr>
+                <td>Foreigner child</td>
+                <td id="foreignerccell"></td>
+            </tr>
+            <tr>
+                <td>Infant</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Total payable</td>
+                <td id="totalpcell"></td>
+            </tr>
+        
+    </table>
+    </table>
+  </div>
+
+  <a href="payment.html" button id="continueBtn" onclick="saveTolocalstorage()">Continue with Purchase</button>
+  <script src="registration.js"></script>
+   
+</body>
+</html>

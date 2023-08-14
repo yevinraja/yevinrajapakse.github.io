@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+   margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.summaryTable{
+    color:whitesmoke;
+}
+
+
+.section{
+    position: relative;
+left: 800px;
+    top: -450px;
+    color: whitesmoke;
+    width: fit-content;
+    max-height: max-content;
+    font-weight: lighter;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),URL(images/pexels-photo-8.jpeg);
+}
+
+.continueBtnc{
+    position: relative;
+    left: 1000px;
+    top: -600px;
+}
+.summaryTable{
+    background-color: white;
+}
+h1{
+   
+    background-color:#e6e6e6;
+    position: relative;
+    top: -150px;
+    left: 30px;
+    color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+.containerp{
+    
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-flow: 60px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/pexels-photo-2526040.jpeg);
+}
+
+.containerp form{
+    width: 600px;
+    background: #e6e6e6;
+    padding: 20px;
+    border-radius: 5px;
+    
+    position: relative;
+    top: 20px;
+    right: 400px;
+    
+}
+
+.containerp form .inputboxp{
+    margin-top: 20px;
+}
+.containerp form .inputboxp span{
+    display: block;
+    color: #999;
+    padding-bottom: 5PX;
+}
+
+.containerp form .inputboxp input,
+.containerp form .inputboxp select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #741e1e;
+}
+
+.containerp form .flexboxp{
+    display: flex;
+    gap: 15px;
+}
+.containerp form .flexboxp .inputboxp{
+    flex:1 1 150px;
+
+}
+
+.containerp form .submit-btn{
+    position: relative;
+    top: 10px;
+   
+    background-color: #8ead91;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.containerp form .submit-btn{
+    letter-spacing: 2px;
+    opacity: .9;
+}
+
+.inputboxp{
+    color: #741e1e;
+    position: relative;
+   
+}
+
+.inputboxp span i{
+    color: seagreen;
+    position: relative;
+    left: 530px;
+    bottom: 30px;
+}
+#continueBtn {
+    position: relative;
+    bottom: 380px;
+    left: 250px;
+    padding: 10px 20px;
+    background-color: #4d9653;
+    color: #ffffff;
+    border: outset;
+    cursor: pointer;
+    
+  }

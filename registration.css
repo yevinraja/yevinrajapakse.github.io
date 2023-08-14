@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),URL(images/pexels-photo-81.jpeg);
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: -100;
+    
+}
+.section{
+    position: relative;
+    left: 0px;
+    top: -1000px;
+}
+.container {
+    float: left;
+    width: 50%;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/pexels-photo-172277.jpeg);
+  }
+
+  .h2{
+color: #e6e6e6;
+  }
+
+  .summaryTable{
+    color:whitesmoke;
+}
+
+
+.section{
+    position: relative;
+left: 800px;
+    top: -450px;
+    color: whitesmoke;
+    width: fit-content;
+    max-height: max-content;
+     font-weight: lighter;
+    
+}
+
+.container form{
+    width: 100%;
+    height:80%;
+    max-width: 500px;
+    padding: 50px 30px 20px;
+    background: #e6e6e6;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+.input-group label{
+    flex-basis: 28%;
+}
+.input-group input, .input-group textarea{
+    flex-basis: 68%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 16px;
+}
+::placeholder{
+    font-size: 14px;
+   
+}
+
+#continueBtn {
+    position: relative;
+    bottom: 375px;
+    left: 420px;
+    padding: 10px 20px;
+    background-color: #4d9653;
+    color: #ffffff;
+    border: outset;
+    cursor: pointer;
+    
+  }
+ 
+.input-group span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color:red;
+
+}
+.input-group span i{
+    color: seagreen;
+}
+.select{
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 2em;
+    line-height: 3;
+    background-color: #000000;
+    overflow: hidden;
+    
+    color: #fff;
+    cursor: pointer;
+    left: -195px;
+}
+select::-ms-expand {
+    display: none;
+}

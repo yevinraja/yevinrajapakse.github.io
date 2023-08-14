@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+.sub-header1{
+    height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),URL(images/threat1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgba(105, 56, 56, 0.509);
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/2782686.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}     
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+.nav-links ul li a{
+     color: whitesmoke;
+     text-decoration: none;
+     font-size: 11px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: lightslategray;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-boxth{
+    width: 100%;
+    height: 350px;
+    color: rgb(110, 62, 0);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(images/pexels-photo-24.jpeg);
+}
+
+.text-boxth h1{
+    font-size: 62px;
+    color:gainsboro;
+}
+.text-boxth p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #3d0000 ;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+border: 1px solid rgb(36, 50, 63);
+background: rgb(169, 204, 240);
+transition: 1s;
+}
+.Threatsth{
+    position: relative;
+    top: 350px;
+}
+
+.Threatsth h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 200px;
+}
+
+
+.Threatsth{
+    font-size: 20px;
+    position: relative;
+    right: -30px;
+}
+
+.about-threatsth{
+    width: 90%;
+    height: 60vh;
+    background-color: rgb(158, 90, 90);
+    position: relative;
+    top: -20px;
+    right: -40px;
+    border-style: double;
+    page-break-inside: auto;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(images/pexels-photo-31.jpeg);
+    
+}
+
+.about-threatsth img{
+margin-right: 20px;
+height: 200px;
+
+}
+.about-threatsth h1{
+    padding-top: 20px;
+    padding-right: 200px;
+    color: rgb(183, 198, 198);
+    
+}
+
+.about-threatsth p{
+    padding: 15px 0 25px;
+    object-position: right;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer{
+    background-color: #aaaaaa;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+ }
+
+ .footer h4{
+    margin-bottom: 25px;
+    color: black;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+ }
+ .icons .fa{
+    color: black;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px o;
+ }

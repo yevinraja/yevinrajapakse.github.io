@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta name="viewport" ::content="with=device-width,initial-scale=1.0">
+ <title>hikkaduwa turtle hatchery</title>
+
+ 
+ <link rel="stylesheet" href="tickets.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+
+ <body>
+
+    <section class="sub-header1">
+        <nav>
+    
+    <div class="nav-links">
+        <ul>
+            <li><a href="tickets.html">Tickets ></a></li>
+            <li><a href="registration.html">Details ></a></li>
+            <li><a href="payment.html">Payments ></a></li>
+            <li><a href="confirmation.html">Confirmation</a></li>
+            
+        </ul>
+    </div>
+        </nav>
+   
+    </section>
+    <section class="main">
+        
+    <div class="container">
+        <h1>Buy Tickets</h1>
+        <br><br>
+   
+        
+        <div class="dsection">
+          
+          <div class="calendar">
+            <input type="date" id="reservation-date">
+          </div>
+        </div>
+   
+        
+        <div class="section">
+         
+
+          <table id="guestsTable">
+            
+            
+          </table>
+        </div>
+   
+        -
+        <div class="section">
+        
+          <select id="duration" multiple>
+            <option value="07:00-08:00">07:00 am to 08:00 am</option>
+            <option value="08:00-09:00">08:00 am to 09:00 am</option>
+            <option value="09:00-10:00">09:00 am to 10:00 am</option>
+            <option value="10:00-11:00">10:00 am to 11:00 am</option>
+            <option value="11:00-12:00">11:00 am to 12:00 pm</option>
+            <option value="12:00-13:00">12:00 pm to 01:00 pm</option>
+            <option value="13:00-14:00">01:00 pm to 02:00 pm</option>
+            <option value="14:00-15:00">02:00 pm to 03:00 pm</option>
+            <option value="15:00-16:00">03:00 pm to 04:00 pm</option>
+            <option value="16:00-17:00">04:00 pm to 05:00 pm</option>
+            <option value="17:00-18:00">05:00 pm to 06:00 pm</option>
+          </select>
+        </div>
+   
+      
+
+        <div class="section">
+          
+          <table id="summaryTable">
+            <tr>
+              <td>Types</td>
+              <td>Price</td>
+            </tr>
+            <tr>
+              <td>SL Adult</td>
+              <td id="SLAdult"></td>
+            </tr>
+            <tr>
+              <td>SL Child</td>
+              <td id="SLChild"></td>
+            </tr>
+            <tr>
+              <td>Foreign Adult</td>
+              <td id="FOA"></td>
+            </tr>
+            <tr>
+              <td>Foreign Child</td>
+              <td id="FOC"></td>
+            </tr>
+            <tr>
+              <td>Infant</td>
+              <td>Free</td>
+            </tr>
+          </table>
+        </div>
+   
+      </section>
+        <a href="book.html">
+            <a href="registration.html" button id="continueBtn01" >Continue with Purchase</button>
+        </a>
+      </div>
+    
+      <script src="tickets.js"></script>
+        
+      
+       </body>
+      </html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+
+    
+    <div class="containerp">
+        <h1>Payment Details</h1>
+        <form action="">
+            
+            <div class="inputboxp">
+                <span>card number</span>
+                <input type="text" maxlength="16" class="card-holder-input" id="cardnumber" onkeyup="validatecard()">
+                <span id="card-error"></span>
+            </div>
+            <div class="inputboxp">
+                <span>name on card</span>
+                <input type="text" maxlength="8" class="name on card-input" id="nameonecard" onkeyup="validatenameoncard()">
+                <span id="nameoncard-error"></span>
+            </div>
+    <div class="flexboxp">
+        <div class="inputboxp">
+            <span>expiration mm</span>
+            <select name="" id="" class="month-input">
+                <option value="month" selected disabled>month</option>
+                <option value="01">01</option>
+                <option value="02">02</option>   
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                
+            </select>
+            <span id="month-error"></span>
+    </div>        
+    <div class="inputboxp">
+        <span>expiration yy</span>
+        <select name="" id="" class="year-input">
+            <option value="year" selected disabled>year</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>   
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+            <option value="2031">2031</option>
+            
+        </select>
+        <span id="year-error"></span>
+</div>    
+
+    <div class="inputboxp">
+        <span>cvv</span>
+        <input type="text" maxlength="4" class="cvv-input" id="nameonecard" onkeyup="validatecvv()">
+        <span id="cvv-error"></span>
+    </div>
+    </div>
+    
+    
+        </form>
+    </div>
+</body>
+
+  <div class="section">
+    <h2>Summary</h2>
+    <table id="summaryTable">
+      <table border="1">
+  
+        <tbody>
+            <tr>
+                <td>Date</td>
+                <td id="datecell"></td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td id="timecell"></td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td id="durationcell"></td>
+            </tr>
+            <tr>
+                <td>Tickets</td>
+                <td>Charges</td>
+            </tr>
+            <tr>
+                <td>Sl Adult</td>
+                <td id="sladultcell"></td>
+            </tr>
+            <tr>
+                <td>SL Child</td>
+                <td id="slchildcell"></td>
+            </tr>
+            <tr>
+                <td>Foreigner Adult</td>
+                <td id="foreigneracell"></td>
+            </tr>
+            <tr>
+                <td>Foreigner child</td>
+                <td id="foreignerccell"></td>
+            </tr>
+            <tr>
+                <td>Infant</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Total payable</td>
+                <td id="totalpcell"></td>
+            </tr>
+        
+    </table>
+    </table>
+  </div>
+  <script src="payment.js"></script>
+      <a href="confirmation.html" button id="continueBtn" >Continue with Purchase</button>
+    
+</body>
+</html>
